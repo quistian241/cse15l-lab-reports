@@ -5,7 +5,7 @@
 > 2. The high level of comedy
 > 3. The clips 
 > 4. [Video link](https://www.youtube.com/watch?v=bPyVkcM_WhQ&list=LL&index=76)
-> 5. ![Oshimem Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FHololive%2Fcomments%2Fje6t6l%2Ftalent_discussion_uruha_rushia%2F&psig=AOvVaw0zmOl2JTsyITfsKEmn7RNZ&ust=1642188969278000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOC0k-a8r_UCFQAAAAAdAAAAABAJ)
+> 5. ![Oshimem Image](https://static.wikia.nocookie.net/youtube/images/c/cc/Uruharushia.jpg/revision/latest?cb=20210413151950)
 > - other facts...
 
 ```
