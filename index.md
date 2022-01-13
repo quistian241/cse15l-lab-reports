@@ -5,7 +5,7 @@
 > 2. The high level of comedy
 > 3. The clips 
 > 4. [Video link](https://www.youtube.com/watch?v=bPyVkcM_WhQ&list=LL&index=76)
-> 5. ![Oshimem Image](https://images.app.goo.gl/BCNPGkKSJ59GJHnb7)
+> 5. ![Oshimem Image](https://static.wikia.nocookie.net/youtube/images/c/cc/Uruharushia.jpg/revision/latest?cb=20210413151950)
 > - other facts...
 
 ```
