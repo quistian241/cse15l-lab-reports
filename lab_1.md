@@ -118,6 +118,8 @@ $ <logout>
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
+## **or** 
+![The_Same_Thing_But_I_Did_it_on_the_terminal](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode4.png?raw=true)
 
 After this is done you should be able to `ssh` or `scp` without having to enter your password. 
 
