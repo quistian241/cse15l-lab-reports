@@ -44,6 +44,7 @@ Specific useful commands to try:
 - `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 Running these commands should yeild results similar looking to this:
+
 ![Command_EX](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode2.png?raw=true)
 
 **To Log Out:**
@@ -119,8 +120,21 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
 ## **or** 
-![The_Same_Thing_But_I_Did_it_on_the_terminal](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode4.png?raw=true)
+
+![The_same_thing_but_I_did_it_on_the_terminal!](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode4.png?raw=true)
 
 After this is done you should be able to `ssh` or `scp` without having to enter your password. 
 
 ## 6. *Making Remote Running Even More Pleasant*
+
+- Write commands in quotation marks to directly run them on the remote **server**:
+`$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+
+- And you can use semicolons to run multiple command lines (for most terminals):
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
+- You can use the up-arrow on your keyboard to reuse any previously used commands
+
+What all these combined look like in practice:
+
+![The_Code_In_Practice]()
