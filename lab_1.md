@@ -22,4 +22,4 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 Just type `yes` and press enter, then type in your freshly reset password to finish signing in. Then something like this should pop-up:
-![Signing_In]()
+![Signing_In](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode1.png?raw=true)
