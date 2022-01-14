@@ -72,6 +72,8 @@ After creating the file run the commands `javac` and `java` on the **client** (y
 
 You should then input your password to sign in just like with the `ssh`. Log back into the ssh and use `ls` to hopefully see the file in the directory. 
 
+![The_Before_LS](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode6.png?raw=true)
+
 ![LS_See_File?](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode3.png?raw=true)
 
 Stay on the **server** and run the `javac` and `java` commands then exit.
