@@ -42,10 +42,13 @@ Specific useful commands to try:
 - `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
 - `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
+Running these commands should yeild results similar looking to this:
+![Image]()
+
 **To Log Out:**
 - Ctrl-D
 - Run the command `exit`
-
+ 
 
 ## 4. *Moving Files over SSH with scp*
 
