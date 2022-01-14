@@ -68,7 +68,7 @@ class WhereAmI {
 
 After creating the file run the commands `javac` and `java` on the **client** (your computer). Then in this same directory run this command (once again replacing the *zz* with your acounts letters):
 
-'scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/'
+`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 
 You should then input your password to sign in just like with the `ssh`. Log back into the ssh and use `ls` to hopefully see the file in the directory. 
 
