@@ -14,6 +14,7 @@ From there you can look up your course-specific account for the class here:
 ## 2. *Remotely Connecting*
 
 Once you reset your password for the course specific acount head over to VSCode and open a terminal. Use this command but replace the *zz* with the letters in your course specific acount.
+
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
 
 A message will most likely pop-up due to this being the first time you've connected to the server that looks like this.
