@@ -106,7 +106,7 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
-## **OR**
+## **or**
 
 ![The_LAst_IMG](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode7.png?raw=true)
 
