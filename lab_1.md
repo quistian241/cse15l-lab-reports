@@ -128,9 +128,11 @@ After this is done you should be able to `ssh` or `scp` without having to enter 
 ## 6. *Making Remote Running Even More Pleasant*
 
 - Write commands in quotation marks to directly run them on the remote **server**:
+
 `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
 - And you can use semicolons to run multiple command lines (for most terminals):
+
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 - You can use the up-arrow on your keyboard to reuse any previously used commands
