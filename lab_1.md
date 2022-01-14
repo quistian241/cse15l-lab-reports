@@ -69,7 +69,11 @@ After creating the file run the commands `javac` and `java` on the **client** (y
 
 'scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/'
 
-You should then input your password to sign in just like with the `ssh`. Log back into the ssh and use `ls` to hopefully see the file in the directory. Stay on the **server** and run the `javac` and `java` commands. 
+You should then input your password to sign in just like with the `ssh`. Log back into the ssh and use `ls` to hopefully see the file in the directory. 
+
+![LS_See_File?](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode3.png?raw=true)
+
+Stay on the **server** and run the `javac` and `java` commands. 
 
 ## 5. *SSH Keys*
 
