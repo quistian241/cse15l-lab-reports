@@ -53,6 +53,20 @@ Running these commands should yeild results similar looking to this:
 
 ## 4. *Moving Files over SSH with scp*
 
+In order to test the `scp` command, which copy's/moves files over to the **server**, you must first create a file on your computer called `WhereAmI.java`. This can be done in VSCode and the file must contain the following contents:
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+After creating the file run the commands `javac` and `java` on the **client** (your computer). Then in this same directory 
+
 ## 5. *SSH Keys*
 
 ## 6. *Making Remote Running Even More Pleasant*
