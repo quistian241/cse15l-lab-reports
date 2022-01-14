@@ -43,7 +43,7 @@ Specific useful commands to try:
 - `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 Running these commands should yeild results similar looking to this:
-![Image]()
+![Command_EX](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode2.png?raw=true)
 
 **To Log Out:**
 - Ctrl-D
