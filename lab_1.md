@@ -106,6 +106,9 @@ The key's randomart image is:
 |             ..  |
 +----[SHA256]-----+
 ```
+## **OR**
+
+![The_LAst_IMG](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode7.png?raw=true)
 
 If you’re on Windows, follow the extra ssh-add steps here: [Extra_Steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
