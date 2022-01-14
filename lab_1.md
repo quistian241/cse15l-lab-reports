@@ -73,10 +73,52 @@ You should then input your password to sign in just like with the `ssh`. Log bac
 
 ![LS_See_File?](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode3.png?raw=true)
 
-Stay on the **server** and run the `javac` and `java` commands. 
+Stay on the **server** and run the `javac` and `java` commands then exit.
 
 ## 5. *SSH Keys*
 
-Logging in everytime 
+The act of logging in everytime you want to update or move anything into this directory is tetious, so one thing you could create to make it more convinient is a thing called an *ssh key*. Follow the below setup to roughly match what you should do:
+
+```
+# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
+
+If you’re on Windows, follow the extra ssh-add steps here: [Extra_Steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+This created both a private and public key but the only important one for us is the public one. **Copy the public key** to the .ssh directory of your user acount on the **server** just similarly to the below text:
+
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
+
+After this is done you should be able to `ssh` or `scp` without having to enter your password. 
 
 ## 6. *Making Remote Running Even More Pleasant*
