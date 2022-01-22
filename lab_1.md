@@ -138,7 +138,7 @@ After this is done you should be able to `ssh` or `scp` without having to enter 
 
 - And you can use semicolons to run multiple command lines (for most terminals):
 
-`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+`$ scp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 - You can use the up-arrow on your keyboard to reuse any previously used commands
 
