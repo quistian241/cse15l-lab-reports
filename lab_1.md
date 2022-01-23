@@ -144,4 +144,4 @@ After this is done you should be able to `ssh` or `scp` without having to enter 
 
 What all these combined look like in practice:
 
-![The_Code_In_Practice](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode5.png?raw=true)
+![The_Code_In_Practice](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode8.png?raw=true)
