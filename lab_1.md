@@ -3,7 +3,7 @@
 
  [Download VSCode here.](https://code.visualstudio.com/) After downloding the app should look like this when opened:
 
-![VSCode](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode_ScreenShot.png?raw=true)
+![VSCode](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode_ScreenShot.png?raw=true)
 
 Make sure that OpenSSH is installed ([Windows_Only](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)). 
 
@@ -25,7 +25,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 Just type `yes` and press enter, then type in your freshly reset password to finish signing in. Then something like this should pop-up:
-![Signing_In](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode1.png?raw=true)
+![Signing_In](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode1.png?raw=true)
 
 The terminal has now connected your computer to another one in the CSE basement, and any comands run will do so using the remote computer. The local computer (yours) will now be called the **client** and the remote basement computer the **server**.
 
@@ -45,7 +45,7 @@ Specific useful commands to try:
 
 Running these commands should yeild results similar looking to this:
 
-![Command_EX](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode2.png?raw=true)
+![Command_EX](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode2.png?raw=true)
 
 **To Log Out:**
 - Ctrl-D
@@ -72,9 +72,9 @@ After creating the file run the commands `javac` and `java` on the **client** (y
 
 You should then input your password to sign in just like with the `ssh`. Log back into the ssh and use `ls` to hopefully see the file in the directory. 
 
-![The_Before_LS](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode6.png?raw=true)
+![The_Before_LS](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode6.png?raw=true)
 
-![LS_See_File?](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode3.png?raw=true)
+![LS_See_File?](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode3.png?raw=true)
 
 Stay on the **server** and run the `javac` and `java` commands then exit.
 
@@ -108,7 +108,7 @@ The key's randomart image is:
 ```
 ## **or**
 
-![The_LAst_IMG](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode7.png?raw=true)
+![The_LAst_IMG](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode7.png?raw=true)
 
 If you’re on Windows, follow the extra ssh-add steps here: [Extra_Steps](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
@@ -126,7 +126,7 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 ## **or** 
 
-![The_same_thing_but_I_did_it_on_the_terminal!](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode4.png?raw=true)
+![The_same_thing_but_I_did_it_on_the_terminal!](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode4.png?raw=true)
 
 After this is done you should be able to `ssh` or `scp` without having to enter your password. 
 
@@ -144,4 +144,4 @@ After this is done you should be able to `ssh` or `scp` without having to enter 
 
 What all these combined look like in practice:
 
-![The_Code_In_Practice](https://github.com/quistian241/cse15l-lab-reports/blob/main/VSCode8.png?raw=true)
+![The_Code_In_Practice](https://github.com/quistian241/cse15l-lab-reports/blob/main/images/VSCode8.png?raw=true)
