@@ -17,3 +17,14 @@
 > 
 > ## The output after change is used:
 >![Symptom_of_Fixed2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode3_after.png?raw=true)
+---
+
+## 3 *Fix lone [*
+> ![Code_Change_Diff2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4.png?raw=true) 
+> ## Test file for the failure-inducing input: [Link](https://github.com/quistian241/markdown-parse/blob/main/test-file-group.md)
+> ![Symptom_of_Fail2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_before.png?raw=true)
+> 
+> 
+> ## The output after change is used:
+>![Symptom_of_Fixed2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_after.png?raw=true)
+---
