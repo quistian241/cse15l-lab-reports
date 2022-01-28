@@ -21,7 +21,7 @@
 
 ***
 
-## 3. *Fix lone [*
+## 3. *Fix Lone [*
 > ![Code_Change_Diff2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4.png?raw=true) 
 > ## Test file for the failure-inducing input: [test-file7.md](https://github.com/quistian241/markdown-parse/blob/main/test-file7.md) and [test-file8.md](https://github.com/quistian241/markdown-parse/blob/main/test-file8.md)
 > ![Symptom_of_Fail2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_before.png?raw=true)
