@@ -10,6 +10,6 @@
 
 ## 2 *Reject extra space between ](*
 > ![Code_Change_Diff2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode3.png?raw=true) 
-> ## Test file for the failure-inducing input: [Link](https://github.com/quistian241/markdown-parse/blob/main/test-file2.md)
+> ## Test file for the failure-inducing input: [Link](https://github.com/quistian241/markdown-parse/blob/main/test-file-group.md)
 > ![Symptom_of_Fail2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode3_before.png?raw=true)
 >
