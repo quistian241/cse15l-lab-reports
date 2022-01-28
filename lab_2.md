@@ -21,7 +21,7 @@
 
 ## 3. *Fix lone [*
 > ![Code_Change_Diff2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4.png?raw=true) 
-> ## Test file for the failure-inducing input: [Link](https://github.com/quistian241/markdown-parse/blob/main/test-file-group.md)
+> ## Test file for the failure-inducing input: [Link_1](https://github.com/quistian241/markdown-parse/blob/main/test-file7.md) and [Link_2](https://github.com/quistian241/markdown-parse/blob/main/test-file8.md)
 > ![Symptom_of_Fail2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_before.png?raw=true)
 > 
 > 
