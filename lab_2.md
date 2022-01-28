@@ -24,7 +24,7 @@
 > ## Test file for the failure-inducing input: [test-file7.md](https://github.com/quistian241/markdown-parse/blob/main/test-file7.md) and [test-file8.md](https://github.com/quistian241/markdown-parse/blob/main/test-file8.md)
 > ![Symptom_of_Fail2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_before.png?raw=true)
 > 
-> The symptom in the above image is that of 
+> The symptom in the above image is that of an index being out of bounds. Looking at the code through the exception text I saw that the index out of bound happened at the start of an internal while loop, and was also caused by a closed bracket **]** not existing on the same line as an open bracket **[**. In order to fix this bug that caused and exception to occur I put an if-break statement that checked to see if the index of the closed bracket was -1.
 > ## The output after change is used:
 >![Symptom_of_Fixed2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_2_images/VSCode4_after.png?raw=true)
 ***
