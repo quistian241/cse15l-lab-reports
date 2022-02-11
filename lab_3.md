@@ -27,9 +27,9 @@
 >
 ## 3. *SCP with Alias*
 > The last demo to do is to show how copying an ssh using the scp command and our new alias is done. Now that we've made the alias change as seen in the previous step all we need to do is type in the below comand to the terminal.
-> '''
+> ```
 > scp file-name alias:~/
-> '''
+> ```
 >
 > ![image_eggzample](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_3_images/Lab3_5.png?raw=true)
 >
