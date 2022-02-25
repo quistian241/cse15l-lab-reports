@@ -18,9 +18,15 @@
 > ![MySnip2](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_MySnip2.png?raw=true) 
 >
 > ![MySnip3](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_MySnip3.png?raw=true) 
+>
 
 ## 3. *Reviewed Code Results*
-> For `the reviewed implementation` the results were a bit more interesting. 
+> For `the reviewed implementation` the results were a bit more interesting. Snippet 1 yeilded an assertion error since the code picked up three nonlinks on top of the correct only link. Then we actually get a pass for Snippet 2. Finally theres a StringIndexOutOfBoundsException thrown in the tester for Snippet 3 which we can see is caused by our code on line 17 of MarkdownParse. Condensed image: ![Le_Emagee](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_2.png?raw=true)
+> 
+> Snippet 1: ![AnoSnip1](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_AnoSnip1.png?raw=true)
+>
+> Snippet 3: ![AnoSnip3](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_AnoSnip2.png?raw=true)
+>
 
 ## 4. *Snippet 1 Solution?*
 >
