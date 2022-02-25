@@ -11,6 +11,8 @@
 
 ## 2. *My Implementation Results*
 > For `my repository` the results of running the tests was that of every test failing. Now while each tester for the three snippets failed there were no exceptions thrown, we only didn't get the expected outputs we wanted for each snippet. ![The_Image](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_4_images/Lab4_1.png?raw=true)
+>
+> 
 
 ## 3. *Reviewed Code Results*
 >
