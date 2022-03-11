@@ -32,13 +32,13 @@
 > 
 > ![the-image-baka](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_3.png?raw=true)
 >
-> **Personal md-parse**
+> **Personal md-parse with check for ](:**
 > 
 > ![personal-flex?](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_4.png?raw=true)
 >
 
 ## 3. *Second Test Discrepancy*
-> This next one is another bug where the provided implementation is incorrect. (not picking on the provided code these were just the easiest to explain)
+> This next one is another bug where the provided implementation is incorrect (not picking on the provided code these were just the easiest to explain).
 > 
 > ![image-of-diff-two](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_5.png?raw=true)
 >
