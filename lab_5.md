@@ -5,9 +5,10 @@
 > ![the-cool-script.sh-change](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_1.png?raw=true)
 
 ## 2. *First Test Discrepancy*
->  
+>  While there were multiple choices to choose from this first discrepancy comes from a difference in output on file '201.md'. 
+> ![image-of-diff]()
 >
->
+> As seen from there the provided implementation seems to find a link baz and mine doesn't. Taking the provided contents of file 201.md and running it through this [CommonMark demo site](https://spec.commonmark.org/dingus/) we find that there should be no link found in this file, therefore the provided implementation contains a bug. 
 
 ## 3. *Second Test Discrepancy*
 >
