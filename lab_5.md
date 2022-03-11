@@ -47,3 +47,11 @@
 > ![](/url)
 >
 > ```
+>
+> **Provided md-parse with no check for ![:**
+>
+> ![image-baka-two](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_6.png?raw=true)
+>
+> **Personal md-parse with check for ![:**
+>
+> ![i'm_not_trying_to_flex](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_7.png?raw=true)
