@@ -33,11 +33,13 @@
 > ![the-image-baka](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_3.png?raw=true)
 >
 > **Personal md-parse**
+> 
 > ![personal-flex?]()
 >
 
 ## 3. *Second Test Discrepancy*
 > This next one is another bug where the provided implementation is incorrect. (not picking on the provided code these were just the easiest to explain)
+> 
 > ![image-of-diff-two]()
 >
 > From the image we see that the my md-parse does not find a link and the provded md-parse says it does. However looking at the contents of 580.md it clear that the provided md-parse is incorrect. Looking at the text for 580.md below we see that since there's an exclamation point `!` right next to the open bracket `[` that it's an image not a link. And double checking on this [site](https://spec.commonmark.org/dingus/) we conform out suspicions (provided you add some text in the `[]` so something pops up). 
