@@ -1,14 +1,22 @@
 # **Lab 5 Report**
 ## 1. *How The Different Results Were Found*
-> The results for the test were found relatively simply through the usage of the command `diff markdown-parse/results.txt markdown-parse-main-three/markdown-parse-main/results.txt` where the first class path is for *my markdown-parse implementation* and the secound classpath is for *the provided one back in lab 9*. One noteable change made to script.sh one that first prints out the file name and the test result on the same line. This change is one that allows you to identify not only the differences between the two files but know which .md file it coresponds to since they aren't always in order. 
 >
-> ![the-cool-script.sh-change](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_1.png?raw=true)
+> First I ran `bash script.sh > results.txt` inside both implementations of markdown-parse to create a file that had all the results of running a test on each file. Then compared those results using the command of `diff markdown-parse/results.txt markdown-parse-main-three/markdown-parse-main/results.txt`, where the first class path is for **my markdown-parse implementation** and the secound classpath is for **the provided one back in lab 9**. One noteable change made to script.sh one that first prints out the file name and the test result on the same line. This change is one that allows you to identify not only the differences between the two files but know which .md file it coresponds to since they aren't always in order. 
+>
+> **The script.sh change:**
+> ```
+> for file in test-files/*.md;
+> do
+>   echo -n -e  "${file##*/}\t"
+>   java MarkdownParse $file
+> done
+> ```
 
 ## 2. *First Test Discrepancy*
 >  While there were multiple choices to choose from this first discrepancy comes from a difference in output on file '201.md'. 
 > ![image-of-diff](https://github.com/quistian241/cse15l-lab-reports/blob/main/lab_5_images/Lab5_2.png?raw=true)
 >
-> As seen from there the provided implementation seems to find a link baz and mine doesn't. Taking the provided contents of file 201.md and running it through this   [CommonMark demo site](https://spec.commonmark.org/dingus/) we find that there should be no link found in this file, therefore the provided implementation contains a bug. Looking at the md-parse implementation it seems that there is no place where it checks that the end bracket `]` and the open paren `(` are right next to each other or not, so it included link baz despite it not being a vaild link. 
+> As seen from there the provided implementation seems to find a link baz and mine doesn't. Taking the provided contents of file 201.md and running it through this   [CommonMark demo site](https://spec.commonmark.org/dingus/) we find that there should be no link found in this file, therefore the provided implementation contains a bug. Looking at the md-parse implementation it seems that there is no place where it checks that the end bracket `]` and the open paren `(` are right next to each other or not, so it included link baz despite it not being a vaild link. My md-parse code does have a check for `]` bing next to `(` so it does not include baz as a link. 
 >
 > **The contents of 201.md:** 
 >```
